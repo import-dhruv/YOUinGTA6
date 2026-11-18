@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#100522"/>
+  </linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="200" cy="165" r="86" fill="#0b0418" fill-opacity="0.55"/>
+  <path d="M200 264 C130 264 90 308 80 400 H320 C310 308 270 264 200 264 Z" fill="#0b0418" fill-opacity="0.55"/>
+  <text x="200" y="232" text-anchor="middle" font-family="Impact, sans-serif" font-size="120" fill="#ffffff" fill-opacity="0.9">R</text>
+  <text x="200" y="372" text-anchor="middle" font-family="monospace" font-size="16" letter-spacing="4" fill="#f59e0b">DEMO</text>
+</svg>

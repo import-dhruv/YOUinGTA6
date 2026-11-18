@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#160a2b"/>
+      <stop offset="1" stop-color="#05020f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="50%">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#100820"/>
+      <stop offset="0.5" stop-color="#241338"/>
+      <stop offset="1" stop-color="#0a0417"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.55" stop-color="#05020f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#05020f" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd36e" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ff2d95" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="250" fill="url(#glow)"/>
+  <circle cx="300" cy="300" r="196" fill="url(#sun)" opacity="0.45"/>
+  <g opacity="0.16" stroke="#c084fc" stroke-width="1">
+    <path d="M0 560 H600 M0 590 H600 M0 620 H600"/>
+  </g>
+  <g fill="url(#body)" stroke="#c084fc" stroke-opacity="0.55" stroke-width="2.5">
+    <path d="M300 356 C210 356 150 404 132 492 L108 750 H492 L468 492 C450 404 390 356 300 356 Z"/>
+    <ellipse cx="300" cy="266" rx="82" ry="98"/>
+    <path d="M222 250 Q300 170 378 250 L384 340 L346 320 L254 320 L216 340 Z"/>
+  </g>
+  <path d="M222 250 Q300 168 378 250 Q338 208 300 220 Q258 208 222 250 Z" fill="#c084fc" fill-opacity="0.22"/>
+  <path d="M300 356 C240 356 190 384 160 430" fill="none" stroke="#c084fc" stroke-opacity="0.85" stroke-width="3"/>
+  <path d="M300 172 C254 172 224 210 224 258" fill="none" stroke="#c084fc" stroke-opacity="0.6" stroke-width="2.5"/>
+  <rect x="0" y="430" width="600" height="320" fill="url(#fade)"/>
+  <rect x="0" y="0" width="600" height="750" fill="none" stroke="#c084fc" stroke-opacity="0.25" stroke-width="6"/>
+</svg>
