@@ -124,3 +124,5 @@ Character portraits are stylised SVG placeholders in `frontend/public/characters
 3. Update the `image` fields in `backend/app/data/characters.json` and the character strip in `frontend/components/Landing.tsx`.
 
 Ensure you have the right to use any replacement imagery.
+
+Deployed on Vercel with Root Directory set to `frontend` (website) and `backend` (API).
