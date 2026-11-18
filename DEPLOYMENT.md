@@ -102,6 +102,12 @@ docker compose -f docker/docker-compose.yml up --build
 | Variable | Required | Purpose |
 |---|---|---|
 | `X_BEARER_TOKEN` | No | X API v2 app-only token. Without it, live lookups report unavailable and demo/quiz modes are used. |
+| `X_CONSUMER_KEY` | No | App consumer key. Used to mint an app-only token when no bearer token is set, or to refresh a rejected one. |
+| `X_CONSUMER_SECRET` | No | App consumer secret. Store as a Vercel Secret; never commit or expose to the browser. |
+
+> Live X lookups require an X API project with **available credits**. If X returns `402 credits depleted`,
+> the app reports this clearly and offers demo/quiz mode. Add credits in the X developer portal to enable
+> live profile and post retrieval — no code change is needed.
 | `ALLOWED_ORIGINS` | Production yes | Comma-separated frontend origins allowed by CORS. |
 | `SITE_URL` | No | Public site URL. |
 | `PORT` | No | Local server port (default 8000). |

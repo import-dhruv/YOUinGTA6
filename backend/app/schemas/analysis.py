@@ -144,3 +144,4 @@ class HealthResponse(BaseModel):
     version: str
     llm_used: bool = False
     demo_accounts: int
+    x_credentials_configured: bool = False

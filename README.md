@@ -109,6 +109,7 @@ Full interactive documentation is served by FastAPI at `/docs` and `/redoc`.
 - Match percentages are **relative entertainment scores**, never probabilities or diagnoses.
 - Evidence quotes shown in the UI are real lines from the analysed posts. Nothing is invented.
 - Protected accounts, missing posts, rate limits and API errors produce explicit messages and a quiz fallback.
+- X credentials (`X_BEARER_TOKEN`, `X_CONSUMER_KEY`, `X_CONSUMER_SECRET`) are server-side environment variables / Vercel Secrets only. Live lookups require an X API project with available credits; if X reports `402 credits depleted`, the UI says so plainly and offers demo/quiz mode.
 
 ---
 

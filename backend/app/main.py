@@ -27,7 +27,7 @@ from app.schemas.analysis import (
     MatchRequest,
 )
 from app.services import character_matcher, personality_engine
-from app.services.x_provider import ProfileData, ProviderError, fetch_profile
+from app.services.x_provider import ProfileData, ProviderError, fetch_profile, has_x_credentials
 
 app = FastAPI(
     title="YOUinGTA6 API",
@@ -107,6 +107,7 @@ def health():
         version=VERSION,
         llm_used=False,
         demo_accounts=demo_count(),
+        x_credentials_configured=has_x_credentials(),
     )
 
 
