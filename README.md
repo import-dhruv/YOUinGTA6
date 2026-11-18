@@ -6,6 +6,12 @@ Discover which *Grand Theft Auto VI* character you resemble based on your public
 
 This is an unofficial, non-commercial fan project. It is not affiliated with or endorsed by Rockstar Games.
 
+## Live deployment
+
+- **Website:** <https://youingta6.vercel.app>
+- **API docs:** <https://youingta6-backend.vercel.app/docs>
+- **Source:** <https://github.com/import-dhruv/YOUinGTA6>
+
 ---
 
 ## What it does

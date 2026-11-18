@@ -1,5 +1,7 @@
 # Deployment
 
+**Live instance:** frontend <https://youingta6.vercel.app> · backend <https://youingta6-backend.vercel.app>
+
 The project is deployed as two independent applications:
 
 - **frontend/** — Next.js 15 site
